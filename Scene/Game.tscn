@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Script/GridContainer.gd" type="Script" id=1]
+
+[node name="Game" type="Node"]
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 12.3601
+margin_top = 14.8155
+margin_right = 124.36
+margin_bottom = 126.816
+size_flags_stretch_ratio = 0.0
+columns = 4
+script = ExtResource( 1 )
